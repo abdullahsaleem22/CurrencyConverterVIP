@@ -37,7 +37,7 @@ extension ConverterInteractor:ConverterInteractorInput{
             return
         }
         
-        var result = fromRate * number
+        var result = number / fromRate
         result = result * toRate
                    
 
